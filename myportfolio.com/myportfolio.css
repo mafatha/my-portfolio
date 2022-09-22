@@ -1,0 +1,231 @@
+ @import url('https://fonts.googleapis.com/css2?family=roboto&display=swap');
+ 
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+body{
+    font-family: 'roboto',sans-serif;
+}
+/*header*/
+header.myheader{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.54)) ,url("../images/pic1.jpeg");
+    background-size: cover;
+    height: 600px;
+}
+
+header.myheader nav.mynav ul.navbar{
+    padding: 15px;
+}
+
+
+header.myheader nav.mynav ul.navbar li{
+    display: inline-block;
+   font-size: 22px;
+}
+
+
+header.myheader nav.mynav ul.navbar li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 5px 15px;
+    padding: 10px;
+
+}
+
+
+header.myheader nav.mynav ul.navbar li.left{
+    float: left;
+}
+
+header.myheader nav.mynav ul.navbar li.right{
+    float: right;
+}
+
+header.myheader nav.mynav ul.navbar::after{
+    display: block;
+    clear: both;
+    content: '';
+}
+
+
+header.myheader nav.mynav ul.navbar li.right a{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+header.myheader div.myintro{text-align: center; margin-top: 150px;}
+header.myheader div.myintro h2{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+ 
+
+header.myheader div.myintro p.skills{
+    text-align: center;
+    color: lightseagreen;
+    font-size: 30px;
+    margin:5px;
+}
+
+
+header.myheader div.myintro a.projects{
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 22px;
+    text-decoration: none;
+}
+
+header.myheader nav.mynav ul.navbar li.left a:hover{
+    color: lightseagreen;
+}
+
+header.myheader nav.mynav ul.navbar li.right a:hover{
+    color: lightseagreen;
+}
+
+/*about section*/
+section.aboutme h2.aboutheading{
+   margin: 40px;
+   text-align: center;
+}
+
+section.aboutme div.container div.content,div.img{
+    width: 50%;
+    float: left;
+}
+
+section.aboutme div.container div.content{
+    padding: 25px;
+}
+
+
+section.aboutme div.container div.content p.aboutpara{
+    font-size: 25px;
+}
+
+section.aboutme div.container div.content a.portfolio{
+    display: inline-block;
+    color: black;
+    background-color: lightseagreen;
+    text-decoration: none;
+    border-radius: 22px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+section.aboutme div.container div.content a.portfolio:hover{
+    color: white;
+}
+
+
+
+h2{
+   
+    
+    text-align: center;
+    text size: 20px;
+    
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+div.row:hover{
+    color:lightseagreen;
+}
+
+
+h2.class{
+    text-align: center;
+    background-color: rgb(29, 100, 100);
+}
+
+
+section.anyclass div.class5 div.img2,div.content1{
+    width: 50%;
+    background: rgb(61, 135, 209);
+    float: left;
+    height: 300px;
+}
+ 
+
+section.anyclass div.class5 div.content1{
+    height: 300px;
+    font-size: 25px;
+    padding-top: 65px;
+}
+
+section.anyclass div.class5 div.img2{
+    padding: 50px;
+    padding-left:200px;
+}
+h2.head{
+      padding-right: 250px;
+}
